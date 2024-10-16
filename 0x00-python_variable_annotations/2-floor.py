@@ -14,4 +14,5 @@ def floor(n:float) -> int:
     n (float): a decimal number
     """
 
-    whole_num: int = math.floor(num)
+    whole_num: int = math.floor(n)
+    return whole_num

@@ -14,4 +14,4 @@ def to_kv(k: str, v: Union[int, float]) -> Tuple[str, float]:
     and should be annotated as a float.
     """
 
-    return (k, float(math.sqrt(v)))
+    return (k, math.sqrt(float(v)))
